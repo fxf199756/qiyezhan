@@ -13,7 +13,7 @@ $(function () {
         if (flag==1){
             flag=0;
             push.css("display","none");
-            person.css("background","white");
+            person.css("background","none");
             person.children().last().attr("class","iconfont icon-icon");
             return;
         }

@@ -92,6 +92,27 @@ nav .list-person .icon-ren1{
 	font-size: 36px;
 	color: #D5D5D5;
 }
+.push{
+	width: 120px;
+	background: white;
+	position: absolute;
+	top: 78px;
+	right: 45px;
+	z-index: 999;
+}
+.push p{
+	height: 40px;
+	line-height: 40px;
+	margin:10px 0;
+	color:  #888;
+	font-size: 14px;
+	cursor: pointer;
+	text-align: center;
+}
+.push p:hover{
+	background: #F0F0F0;
+	color: #FF6600;
+}
 /* 导航栏结束 */
 /* 标题开始 */
 .header{
@@ -348,6 +369,7 @@ nav .list-person .icon-ren1{
 		width: 43px;
 		height: 45px;
 	}
+
 	/* 导航栏结束 */
 	/* 小屏底部开始 */
 	.footer p:nth-child(6){
