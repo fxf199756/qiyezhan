@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>首页</title>
-    <link rel="stylesheet" href="https://at.alicdn.com/t/font_809593_wknhb01iho9.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
-   	<link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_809593_gqd03v5p23a.css">
 	<link rel="stylesheet" href="css/swiper-4.3.5.min.css">
+	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/base.css">
+	<script src="js/jquery-3.3.1.js"></script>
+
 </head>
 <body>
 	<!-- 导航栏开始 -->
@@ -24,14 +26,18 @@
 			</div>
 			<a href="" class="list-text">首页</a>
 			<a href="list.html" class="list-text">游戏产品</a>
-			<a href="" class="list-text">论坛</a>
+			<a href="forum.html" class="list-text">论坛</a>
 			<a href="" class="list-text">关于心动</a>
 			<a href="" class="list-text">加入心动</a>
 			<input type="text" placeholder="搜索" class="search">
 			<i class="iconfont icon-sousuo"></i>
-			<div href="" class="list-person">
+			<div href="" class="list-person" >
 				<i class="iconfont icon-ren1"></i>
 				<i class="iconfont icon-icon"></i>
+			</div>
+			<div class="push" style="display: none">
+				<a href="login.html"><p>登陆</p></a>
+				<a href="register.html"><p>注册</p></a>
 			</div>
 		</div>
 	</nav>	
@@ -76,7 +82,6 @@
 				<h4>萌宠星之梦|都停下脚步，来听吉米宝宝唱歌！</h4>
 				<p>2018-08-01</p>
 				<h3>米德加尔特大陆来了一位新伙伴—吉米。吉米最喜欢唱歌，冒险者们快来帮助它完成音乐星梦！</h3>
-				<i>阅读详情></i>
 			</div>
 			<div class="main col-xs-12 col-sm-12 col-md-12 col-lg-6">
 				<div class="pic"></div>
@@ -94,7 +99,9 @@
 			<ul>
 				<a href="detail.html">
 					<li class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-						<div class="pic"></div>
+						<div class="flag">
+							<div class="pic"></div>
+						</div>
 						<div class="text">
 							<h4>火药的味道了解一下！？解析《#COMPASS战斗天赋解析系统》炮娘【深川缠】！</h4>
 							<p>2018-08-23</p>
@@ -102,77 +109,99 @@
 					</li>
 				</a>
 				<li class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="pic"></div>
+					<div class="flag">
+						<div class="pic"></div>
+					</div>
 					<div class="text">
 						<h4>《#COMPASS战斗天赋解析系统》聆听音乐家【薇欧莉特】的音乐盛宴~！</h4>
 						<p>2018-08-17</p>
 					</div>
 				</li>
 				<li class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="pic"></div>
+					<div class="flag">
+						<div class="pic"></div>
+					</div>
 					<div class="text">
 						<h4>这个“渋”系杀手不太冷！《#COMPASS战斗天赋系统》【卢西安诺】大解析！</h4>
 						<p>2018-08-07</p>
 					</div>
 				</li>
 				<li class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="pic"></div>
+					<div class="flag">
+						<div class="pic"></div>
+					</div>
 					<div class="text">
 						<h4>殿下，英雄战队正在集结，踏平投影世界指日可待！</h4>
 						<p>2018-07-31</p>
 					</div>
 				</li>
 				<li class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="pic"></div>
+					<div class="flag">
+						<div class="pic"></div>
+					</div>
 					<div class="text">
 						<h4>《心灵战争》公测定档！8月2日开启非日常冒险之旅！</h4>
 						<p>2018-07-30</p>
 					</div>
 				</li>
 				<li class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="pic"></div>
+					<div class="flag">
+						<div class="pic"></div>
+					</div>
 					<div class="text">
 						<h4>演绎大炮巨舰的浪漫，《深渊地平线》佐仓绫音、上坂堇参战确认！</h4>
 						<p>2018-06-28</p>
 					</div>
 				</li>
 				<li class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="pic"></div>
+					<div class="flag">
+						<div class="pic"></div>
+					</div>
 					<div class="text">
 						<h4>来自深渊的凝视，《深渊地平线》鬼姬情报首次公开！</h4>
 						<p>2018-06-05</p>
 					</div>
 				</li>
 				<li class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="pic"></div>
+					<div class="flag">
+						<div class="pic"></div>
+					</div>
 					<div class="text">
 						<h4>RO手游巅峰对决「GVG决战」开启，谁才是最终王者？！</h4>
 						<p>2018-06-06</p>
 					</div>
 				</li>
 				<li class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="pic"></div>
+					<div class="flag">
+						<div class="pic"></div>
+					</div>
 					<div class="text">
 						<h4>3D舰娘手游《深渊地平线》预约破10万</h4>
 						<p>2018-05-30</p>
 					</div>
 				</li>
 				<li class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="pic"></div>
+					<div class="flag">
+						<div class="pic"></div>
+					</div>
 					<div class="text">
 						<h4>Eastward：想要在像素游戏中构建好的情感体验</h4>
 						<p>2018-04-28</p>
 					</div>
 				</li>
 				<li class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="pic"></div>
+					<div class="flag">
+						<div class="pic"></div>
+					</div>
 					<div class="text">
 						<h4>WINNER抖腿神曲《EVERYDAY》上架《节奏大爆炸》</h4>
 						<p>2018-04-16</p>
 					</div>
 				</li>
 				<li class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="pic"></div>
+					<div class="flag">
+						<div class="pic"></div>
+					</div>
 					<div class="text">
 						<h4>iKON《回归》新曲上架《节奏大爆炸》</h4>
 						<p>2018-03-15</p>
@@ -300,6 +329,7 @@
 		<i class="iconfont icon-fanhuidingbu"></i><!-- 返回顶部 -->
 	</div>
 	<script src="js/swiper-4.3.5.min.js"></script>
+	<script src="js/index.js"></script>
 	<script>
         var mySwiper = new Swiper ('.swiper-container', {
             direction: 'horizontal',
@@ -332,6 +362,14 @@
         mySwiper.el.onmouseout = function(){
             mySwiper.autoplay.start();
         }
+		let flags=$(".flag");
+        console.log(flags.children());
+        flags.mouseenter(function () {
+			$(this).children().css({width:"110%",height:"110%"});
+        })
+        flags.mouseleave(function () {
+            $(this).children().css({width:"100%",height:"100%"});
+        })
 	</script>
 </body>
 </html>
